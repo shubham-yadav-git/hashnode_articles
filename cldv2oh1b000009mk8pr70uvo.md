@@ -11,7 +11,7 @@ Deep copying in Python is done using the `copy` module's `deepcopy` function. De
 Here's an example of shallow and deep copying in Python:
 
 ```python
-import copyddd
+import copy
 
 # Shallow copy example
 original_list = [[1, 2], [3, 4]]
