@@ -4,6 +4,16 @@
 
 Docker is a technology that helps make computer programs work better. It does this by putting the program and everything it needs to run (like libraries and other files) into a special package called a container. This makes it easier to run the program on different computers and share it with others. Think of a container like a special room for your program to run in, so it has everything it needs and nothing extra.
 
+### VM v/s Docker
+
+A Virtual Machine (VM) and Docker are both technologies used for application virtualization, but they work differently and have different use cases.
+
+A *Virtual Machine runs a complete operating system, including the kernel, on top of physical hardware or a host operating system*. This provides a fully isolated environment for the application to run, with its own set of resources and virtualized hardware. VMs are useful for running multiple operating systems on the same physical hardware, and for testing and development purposes.
+
+Docker, on the other hand, *uses a container-based approach to virtualization. Instead of running a complete operating system, Docker containers share the host operating system kernel and only include the application and its dependencies.*This makes containers lighter and faster to start than VMs, as they don't need to boot a complete operating system. Containers are also more portable and efficient, as they can be easily moved between host systems and don't require their own set of virtualized resources.
+
+While both VMs and Docker provide virtualization and isolation for applications, they differ in terms of resource utilization, portability, and performance. VMs are better suited for running multiple operating systems and for more complex applications, while Docker containers are more suitable for lighter and faster application deployments.
+
 ## Most used commands
 
 Here are some of the most commonly used Docker commands, along with a brief explanation of each:
