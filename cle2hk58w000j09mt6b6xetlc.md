@@ -116,7 +116,7 @@ Step 14: Removing the service sleep-app completely
 docker service rm sleep-app
 ```
 
-Step 15: Force the current node to leave the current swarm use the below command
+Step 15: Force the current node to leave the current swarm using the below command
 
 ```bash
 docker swarm leave --force
