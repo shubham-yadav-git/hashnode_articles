@@ -68,7 +68,7 @@ To generate a join token for a manager node or a worker node in a Docker Swarm, 
     
 
 ```bash
-docker swarm join-token manager 
+docker swarm join-token manager
 ```
 
 This will output the command that can be used to join the swarm as a manager node. You can copy the command and run it on another host to join the swarm as a manager node.
@@ -77,7 +77,7 @@ This will output the command that can be used to join the swarm as a manager nod
     
 
 ```bash
-docker swarm join-token worker 
+docker swarm join-token worker
 ```
 
 This will output the command that can be used to join the swarm as a worker node. You can copy the command and run it on another host to join the swarm as a worker node.
@@ -97,7 +97,7 @@ docker service scale <service-name>=<number-of-replicas>
 
 Replace &lt;service-name&gt; with the name of the service that you want to scale, and &lt;number-of-replicas&gt; with the desired number of replicas of the service.
 
-For example, if you want to scale up the service "my-web-service" to 5 replicas, you would run :
+For example, if you want to scale up the service "my-web-service" to 5 replicas, you would run the:
 
 ```bash
 docker service scale my-web-service=5
