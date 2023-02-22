@@ -1,4 +1,4 @@
-# Django basics
+# Getting Started with Django
 
 Django is a popular open-source web framework written in Python. It follows the Model-View-Controller (MVC) architectural pattern and is designed to make web development faster and easier. With Django, you can quickly build complex web applications with little effort. In this article, we'll cover the basics of Django.
 
