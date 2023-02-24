@@ -1,6 +1,6 @@
 # What is an operating system, and how does it work?
 
-An operating system (OS) is a software that acts as an intermediary between a computer's hardware and its applications. It provides a platform for running applications and managing the resources of a computer, such as its memory, processing power, and input/output operations.
+An operating system (OS) is software that acts as an intermediary between a computer's hardware and its applications. It provides a platform for running applications and managing the resources of a computer, such as its memory, processing power, and input/output operations.
 
 An operating system performs several important functions, including:
 
