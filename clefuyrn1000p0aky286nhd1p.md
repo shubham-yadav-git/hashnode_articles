@@ -137,3 +137,9 @@ In this example, the `TotalOrdersWidget` is added to the `widgets` list of the `
 `ModelList`, `AppList`,`RecentActions` these modules are some predefined modules that I wanted to add to my customIndexDashboard which I imported from the class `jet.dashboard.modules`.
 
 That's it! Now, when you log in to the Django admin panel, you should see the custom widget on the custom dashboard. You can modify the widget's HTML and JavaScript in the `total_orders.html` file, and you can customize the widget's behavior by modifying the `TotalOrdersWidget` class in the [`widgets.py`](http://widgets.py) file.
+
+After all this our admin panel will something like this:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1677434636059/16da23f3-837c-4459-b032-aada47784002.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1677434678294/3a1fd656-36d3-4c50-9026-b24a139a0874.png align="center")
